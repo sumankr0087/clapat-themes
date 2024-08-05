@@ -4,4 +4,12 @@
 
 body {
   background-color: black;
+  color: #fff;
 }
+
+.hero-title {
+  font-size: calc(1rem + 2vw);
+  line-height: calc(1rem + 22vw);
+  font-weight: 500;
+}
+

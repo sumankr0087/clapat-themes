@@ -1,13 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Contact from './components/contact/Contact';
 import Cursor from './components/cursor/Cursor';
+import Footer from './components/Footer';
+import Header from './components/Header'
+import HeroCaption from './components/herocaption/HeroCaption';
+import HeroFooter from './components/herocaption/HeroFooter';
+import MainPage from './components/mainpage/MainPage';
+import ListRotator from './components/works/ListRotator';
+import OurStudio from './components/works/OurStudio';
 
 function App() {
   return (
-    <div className='text-3xl text-white flex justify-center'>
-kjnbsfdks
-sndlsnllo
-<Cursor/>
+    <div>
+      <Cursor />
+      <Header />
+      <HeroCaption />
+      <HeroFooter />
+      <MainPage />
+      <ListRotator />
+      <Contact />
+      <OurStudio />
+      <Footer />
     </div>
   );
 }
